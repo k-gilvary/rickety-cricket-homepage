@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+}
+
+/* header */
+header {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+#headline {
+    font-family: 'Vujahday Script', cursive;
+    font-size: 40px;
+    color: white;
+    margin: 1.2rem auto;
+}
+
+#nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1.1rem;
+}
+
+.nav-list-item {
+    list-style: none;
+    color: white;
+    margin-bottom: 1.1rem;
+    border-bottom: solid 1px #a8a8a8;
+    padding-bottom: 1.075rem;
+    font-weight: bold;
+}
+
+.nav-list-item > a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-list-item > a:visited {
+    color: white;
+}
+
+#top-of-page {
+    display: none;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.1rem;
+}
+
+.socials-list {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.socials-list-item > a {
+    color: white;
+    font-size: 24px;
+}
