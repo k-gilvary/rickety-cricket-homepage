@@ -62,6 +62,23 @@ header {
     display: flex;
     justify-content: center;
     margin-bottom: 1.1rem;
+    width: 100%;
+}
+
+.black-socials {
+    color: black;
+}
+
+.black-socials:visited {
+    color: black;
+}
+
+.white-socials {
+    color: white;
+}
+
+.white-socials:visited {
+    color: white;
 }
 
 .socials-list {
@@ -73,13 +90,13 @@ header {
 }
 
 .socials-list-item > a {
-    color: white;
     font-size: 24px;
 }
 
 /* hero */
 #hero-container {
     text-align: right;
+    margin-bottom: 50px;
 }
 
 #mollywhopped-cover {
@@ -93,4 +110,47 @@ header {
 
 #about-img {
     display: none;
+}
+
+/* upcoming shows */
+#upcoming-shows-container {
+    margin: 1.3rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+#upcoming-shows-cta {
+    width: 80%;
+    margin-bottom: 1.1rem;
+}
+
+#upcoming-shows-table {
+    width: 95%;
+    background-color: black;
+    color: white;
+    border: 3px solid #a8a8a8;
+}
+
+.table-head-data {
+    font-weight: bold;
+}
+
+td {
+    padding: 1.1rem 1.2rem;
+    border-bottom: 2px solid #a8a8a8;
+}
+
+#last-row > td {
+    border: none;
+}
+
+td > a {
+    color: white;
+}
+
+td > a:visited {
+    color: white;
 }
