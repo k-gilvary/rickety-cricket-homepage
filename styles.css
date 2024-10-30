@@ -76,3 +76,21 @@ header {
     color: white;
     font-size: 24px;
 }
+
+/* hero */
+#hero-container {
+    text-align: right;
+}
+
+#mollywhopped-cover {
+    width: 100%;
+}
+
+#hero-head, #hero-cta {
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+#about-img {
+    display: none;
+}
