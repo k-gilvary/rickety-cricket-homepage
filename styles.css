@@ -38,7 +38,6 @@ header {
 
 .nav-list-item {
     list-style: none;
-    color: white;
     margin-bottom: 1.1rem;
     border-bottom: solid 1px #a8a8a8;
     padding-bottom: 1.075rem;
@@ -48,6 +47,7 @@ header {
 .nav-list-item > a {
     text-decoration: none;
     font-size: 20px;
+    color: white;
 }
 
 .nav-list-item > a:visited {
@@ -109,10 +109,6 @@ header {
     font-size: 18px;
 }
 
-#about-img {
-    display: none;
-}
-
 /* upcoming shows */
 #upcoming-shows-container {
     margin: 1.3rem auto;
@@ -163,6 +159,7 @@ td > a:visited {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1.2rem;
 }
 
 #merch-list {
@@ -181,6 +178,39 @@ td > a:visited {
     border-bottom: 2px solid #a8a8a8;
 }
 
-.merch-item-pic {
-    
+/* about */
+#about-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 15px; */
+}
+
+#about-head {
+    font-size: 24px;
+}
+
+#about-text-section {
+    background-color: black;
+    color: white;
+    width: 95%;
+}
+
+#about-img {
+    width: 90%;
+    margin-bottom: 1.2rem;
+    margin-top: 15px;
+}
+
+#about-text {
+    margin-bottom: 1.2rem;
+    padding: 15px;
+    font-size: 20px;
+}
+
+/* footer */
+footer {
+    padding: 15px;
 }
