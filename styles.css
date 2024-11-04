@@ -92,7 +92,7 @@ header {
 .socials-list {
     display: flex;
     flex-direction: row;
-    width: 25%;
+    width: 40%;
     list-style: none;
     justify-content: space-between;
 }
@@ -185,6 +185,18 @@ td > a:visited {
     border-bottom: 2px solid #a8a8a8;
 }
 
+.merch-item-desc {
+    padding: 2%;
+}
+
+.merch-item-pic {
+    width: 20%;
+}
+
+.merch-item-pic > img {
+    width: 100%;
+}
+
 /* about */
 #about-container {
     text-align: center;
@@ -254,6 +266,18 @@ footer {
         width: 75%;
         margin-left: 25%;
     }
+
+    .merch-item-price {
+        padding-right: 20px;
+    }
+
+    /* .socials-list-item {
+        margin-right: 30%;
+    } */
+
+    .socials-list {
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 1025px) {
@@ -264,6 +288,10 @@ footer {
     main {
         width: 80%;
         margin-left: 20%
+    }
+
+    .merch-item-pic {
+        width: 15%;
     }
 
     footer {
