@@ -8,10 +8,13 @@ html {
 }
 
 body {
+    font-family: 'Oswald', sans-serif;
+}
+
+#flex-body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Oswald', sans-serif;
     width: 100%;
 }
 
@@ -27,6 +30,10 @@ header {
     font-size: 40px;
     color: white;
     margin: 1.2rem auto;
+}
+
+#nav {
+    transition: 0.5s;
 }
 
 #nav-list {
@@ -213,4 +220,38 @@ td > a:visited {
 /* footer */
 footer {
     padding: 15px;
+    text-align: center;
+}
+
+
+/* medium screen MEDIA QUERY */
+@media screen and (min-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+
+
+    #flex-body {
+        flex-direction: row;
+        height: 100%;
+    }
+
+    header {
+        height: 100%;
+        width: 25%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    main {
+        width: 75%;
+        margin-left: 25%;
+    }
+
+    footer {
+        width: 75%;
+        margin-left: 25%;
+    }
 }
